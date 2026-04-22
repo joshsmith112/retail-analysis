@@ -1,26 +1,25 @@
-# Florida Retail Performance Dashboard
+# Retail Sales Analysis
 
 ## Overview
-This project focuses on analyzing retail sales performance across multiple locations in Florida. The goal was to identify trends in sales, customer behavior, and seasonal patterns using SQL and Power BI.
+This project analyzes retail sales data to understand customer behavior, product performance, and overall revenue trends. The goal was to identify key drivers of revenue and provide recommendations to improve sales performance.
 
 ## Tools Used
 - SQL
-- Power BI
 
-## Data Preparation
-Multiple datasets were combined using SQL joins to create a unified dataset. A view was created to simplify the data structure before connecting it to Power BI for visualization.
+## Data Analysis
+SQL was used to explore relationships between customer demographics, product categories, and purchasing behavior. Queries included aggregations, grouping, and filtering to identify trends and patterns.
 
 ## Key Insights
-- Sales show clear seasonal trends, with higher performance during warmer periods
-- Certain locations consistently outperform others in average sales
-- Customer distribution is relatively balanced across demographic groups
-- Sales fluctuate over time with noticeable peaks during high-demand periods
+- Certain product categories generate significantly more revenue than others
+- Customer demographics play a role in purchasing behavior
+- Some high-revenue categories also have lower product ratings, indicating potential quality issues
+- Sales patterns remain relatively consistent across different time periods
 
 ## Business Recommendations
-- Increase staffing and inventory during high-performing seasonal periods
-- Focus on high-performing locations for growth and expansion opportunities
-- Use customer demographic data to improve targeted marketing strategies
-- Monitor sales trends over time to better forecast demand
+- Focus marketing efforts on high-performing product categories
+- Investigate low-rated products in high-revenue categories to improve customer satisfaction
+- Use customer demographic data to better target promotions and offers
+- Evaluate product performance regularly to optimize inventory and sales strategy
 
 ## Conclusion
-This dashboard demonstrates how combining SQL and Power BI can provide valuable insights into retail performance. The analysis highlights the impact of seasonal trends and location-based performance on overall business success.
+This project demonstrates how SQL can be used to analyze retail data and uncover meaningful business insights. Understanding customer behavior and product performance can help drive better decision-making and improve overall revenue.

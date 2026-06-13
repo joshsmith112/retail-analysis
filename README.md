@@ -1,19 +1,13 @@
 PROJECT OVERVIEW 
 
- 
+ The goal of this analysis is to evaluate sales performance, customer behavior, and product trends to identify opportunities for revenue growth and improved decision-making. 
 
-The goal of this analysis is to evaluate sales performance, customer behavior, and product trends to identify opportunities for revenue growth and improved decision-making. 
-
- 
-
-The dataset contains customer transactions including demographics, purchase amounts, product categories, payment methods, and customer ratings. 
+ The dataset contains customer transactions including demographics, purchase amounts, product categories, payment methods, and customer ratings. 
 
  
-
 BUSINESS QUESTIONS 
 
  
-
 1.	How does seasonality impact overall revenue performance across the business? 
 
 2.    How do different product categories contribute to overall revenue, and which categories drive the most value? 
@@ -47,14 +41,9 @@ We will use these insights to make business recommendations with the purpose of 
  
 
  
-
- 
-
 SEASONAL REVENUE ANALYSIS 
 
- 
-
-How does seasonality impact overall revenue performance across the business? 
+ How does seasonality impact overall revenue performance across the business? 
 
  
 
@@ -68,11 +57,7 @@ ORDER BY total_sales DESC;
 
  
 
- 
-
- 
-
-Revenue is relatively consistent across all seasons, with no significant seasonal spikes or drops. 
+ Revenue is relatively consistent across all seasons, with no significant seasonal spikes or drops. 
 
  
 

@@ -1,11 +1,12 @@
-PROJECT OVERVIEW 
+# RETAIL STORE ANALYSIS 
+# PROJECT OVERVIEW 
 
  The goal of this analysis is to evaluate sales performance, customer behavior, and product trends to identify opportunities for revenue growth and improved decision-making. 
 
  The dataset contains customer transactions including demographics, purchase amounts, product categories, payment methods, and customer ratings. 
 
  
-BUSINESS QUESTIONS 
+# BUSINESS QUESTIONS 
 
  
 1.	How does seasonality impact overall revenue performance across the business? 
@@ -22,7 +23,7 @@ BUSINESS QUESTIONS
 
  
 
-We will explore insights such as: 
+## We will explore insights such as: 
 
 🔹 Revenue by Category 
 
@@ -41,7 +42,7 @@ We will use these insights to make business recommendations with the purpose of 
  
 
  
-SEASONAL REVENUE ANALYSIS 
+# SEASONAL REVENUE ANALYSIS 
 
  How does seasonality impact overall revenue performance across the business? 
 
@@ -61,11 +62,11 @@ ORDER BY total_sales DESC;
 
  
 
-Business Recommendation:  
+## Business Recommendation:  
 
 The business may benefit from targeted seasonal promotions to create stronger revenue peaks and maximize sales during specific periods. 
 
-DEPARTMENT PERFORMANCE 
+# DEPARTMENT PERFORMANCE 
 
  
 
@@ -89,7 +90,7 @@ Electronics is the dominant revenue-generating category, significantly outperfor
 
  
 
-Business Recommendations: 
+## Business Recommendations: 
 
 The business should prioritize investment in Electronics while analyzing underperforming departments to identify opportunities for improvement. 
 
@@ -105,7 +106,7 @@ The answer to these questions will provide guidance on how to move forward to dr
 
  
 
-Let’s Dive A Little Deeper: 
+## Let’s Dive A Little Deeper: 
 
  
 
@@ -123,7 +124,7 @@ ORDER BY category, revenue desc;
 
  
 
-Key Insights: 
+## Key Insights: 
 
  
 
@@ -161,7 +162,7 @@ Key Insights:
 
  
 
-Business Recommendations: 
+## Business Recommendations: 
 
  
 
@@ -191,7 +192,7 @@ Business Recommendations:
 
  
 
-PRODUCT PERFORMANCE 
+# PRODUCT PERFORMANCE 
 
  
 
@@ -217,7 +218,7 @@ Conversely, the lowest-performing products are grocery-related items, aligning w
 
  
 
-Business Recommendations: 
+## Business Recommendations: 
 
 Increase focus on top-performing Electronics products through targeted marketing, bundling strategies, and inventory prioritization to maximize revenue from proven demand drivers 
 
@@ -229,13 +230,13 @@ Identify whether low-performing products contribute to customer retention or cro
 
  
 
-Important Observation: 
+## Important Observation: 
 
 The concentration of revenue in a small number of products suggests potential dependency risk on Electronics. Diversifying revenue streams by strengthening mid-tier products could reduce reliance on a single category. 
 
  
 
-CUSTOMER DEMOGRAPHICS 
+# CUSTOMER DEMOGRAPHICS 
 
  
 
@@ -259,7 +260,7 @@ Further analysis should determine whether this difference is driven by customer 
 
  
 
-Let’s Dive a Little Deeper... 
+## Let’s Dive a Little Deeper... 
 
 How do genders perform based on category? 
 
@@ -277,7 +278,7 @@ Female customers show a more balanced distribution, with Footwear, Women’s Clo
 
  
 
-Business Recommendations: 
+## Business Recommendations: 
 
 Evaluate profit margins for Sports and Footwear categories to determine whether increased marketing investment could yield higher overall profitability compared to Electronics. 
 
@@ -289,13 +290,13 @@ Analyze the overlap between Accessories and Beauty products to identify bundling
 
  
 
-Important Observation: 
+## Important Observation: 
 
 The concentration of male spending in a few categories may present both an opportunity for targeted growth and a risk of over-reliance on specific product segments. 
 
  
 
-CUSTOMER RETENTION 
+# CUSTOMER RETENTION 
 
  
 
@@ -339,13 +340,13 @@ GROUP BY category;
 
 A significant portion of customers are repeat buyers, indicating strong customer retention and ongoing engagement with the business. 
 
-Business Recommendations: 
+## Business Recommendations: 
 
 • Implement loyalty programs to further encourage repeat purchases 
 
  
 
-PRODUCT RATINGS 
+# PRODUCT RATINGS 
 
  
 
@@ -391,7 +392,7 @@ Footwear is a top revenue-generating category, but it also has the highest numbe
 
  
 
-Business Recommendations: 
+## Business Recommendations: 
 
  
 
